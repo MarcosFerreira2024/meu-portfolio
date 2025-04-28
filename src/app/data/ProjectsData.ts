@@ -10,7 +10,7 @@ export const projetos = [
          alta performance e design minimalista.`,
         tecnologias: ['React', 'Next.js', 'Tailwind', 'TypeScript','Node.js'],
         tec_icons: ['/skills/react.svg', '/skills/nextjs.svg', '/skills/tailwind.svg', '/skills/typescript.svg','skills/nodejs.svg'],
-        live: 'https://burnout-eight.vercel.app/',
+        live: 'https://github.com/MarcosFerreira2024/Burnout',
     },
     {
         id: 2,
@@ -23,7 +23,7 @@ export const projetos = [
         oferece uma experiência simples e eficiente tanto para alunos quanto para a comunidade.`,
         tecnologias: ['React', 'Tailwind', 'TypeScript'],
         tec_icons: ['/skills/react.svg', '/skills/tailwind.svg', '/skills/typescript.svg'],
-        live: 'https://projeto-unifeso.vercel.app/',
+        live: 'https://github.com/MarcosFerreira2024/Projeto-Unifeso',
     },
     {
         id: 3,
@@ -34,7 +34,7 @@ export const projetos = [
          aplicando conceitos fundamentais de estruturação de páginas web e estilização profissional.`,
         tecnologias: ['HTML', 'CSS', 'JavaScript'],
         tec_icons: ['/skills/html.svg', '/skills/css.svg', '/skills/javascript.svg'],
-        live: "https://projeto-awax-marcosferreira2024s-projects.vercel.app/",
+        live: "https://github.com/MarcosFerreira2024/Projeto-Awax",
     },
     {
         id: 4,
@@ -47,7 +47,7 @@ export const projetos = [
         com um design moderno, responsivo e voltado para conversão.`,
         tecnologias: ['HTML', 'CSS', 'JavaScript'],
         tec_icons: ['/skills/html.svg', '/skills/css.svg', '/skills/javascript.svg'],
-        live: "https://b7-burguer-rouge.vercel.app/",
+        live: "https://github.com/MarcosFerreira2024/B7-Burguer",
     },
     {
         id: 5,
@@ -58,7 +58,7 @@ Atualmente, o projeto está concentrado no frontend, utilizando o Next como base
 O layout é limpo, responsivo e pensado para facilitar a navegação e visualização de informações de maneira prática.`,
         tecnologias: ['React', 'Next.js', 'Tailwind'],
         tec_icons: ['/skills/react.svg', '/skills/nextjs.svg', '/skills/tailwind.svg'],
-        live: '',
+        live: 'https://github.com/MarcosFerreira2024/meu-portfolio',
     },
     {
         id: 6,
@@ -67,7 +67,7 @@ O layout é limpo, responsivo e pensado para facilitar a navegação e visualiza
         text: 'Este portfólio foi desenvolvido utilizando Next.js, TypeScript e Tailwind, focando em performance, responsividade e experiência de usuário.',
         tecnologias: ['Next.js', 'TypeScript', 'Tailwind'],
         tec_icons: ['/skills/nextjs.svg', '/skills/typescript.svg', '/skills/tailwind.svg'],
-        live: "https://meu-portfolio-next.vercel.app/",
+        live: "https://github.com/MarcosFerreira2024/portfolio",
     },
     {
         id: 7,
@@ -77,7 +77,7 @@ O layout é limpo, responsivo e pensado para facilitar a navegação e visualiza
          com foco em calcular de forma precisa e elegante o Índice de Massa Corporal (IMC) de um usuário.`,
         tecnologias: ['TypeScript', 'Tailwind', 'HTML'],
         tec_icons: ['/skills/typescript.svg', '/skills/tailwind.svg', '/skills/html.svg'],
-        live:"https://calculadora-imc-marcosferreira2024s-projects.vercel.app/",
+        live:"https://github.com/MarcosFerreira2024/Calculadora-Imc",
     },
     {
         id: 8,
@@ -91,7 +91,7 @@ O layout é limpo, responsivo e pensado para facilitar a navegação e visualiza
         entregando uma experiência divertida e educativa para fãs da franquia.`,
         tecnologias: ['HTML', 'CSS', 'JavaScript'],
         tec_icons: ['/skills/html.svg', '/skills/css.svg', '/skills/javascript.svg'],
-        live:"https://pokedex-steel-six.vercel.app/",
+        live:"https://github.com/MarcosFerreira2024/Pokedex",
     },
 ];
 
