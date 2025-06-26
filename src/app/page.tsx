@@ -14,6 +14,7 @@ function main() {
   return (
     <div className='flex '>
       <SideBar />
+
       
       <div className='max-w-container border-l-2 border-r-2 mainShadow bg-slate-50 border-main  flex flex-1 md:px-5 px-2 self-center mx-auto  flex-col gap-20 '>
         <Header/>
@@ -22,10 +23,6 @@ function main() {
         <ProjectsSection/>
         <CertificadosSection/>
         <ContactSection/>
-        
-        
-        
-
       </div>
 
     </div>
