@@ -5,8 +5,6 @@ export const projetos = [
     title: "Y-Backend",
     text: `Projeto desenvolvido com foco em Domain-Driven Design (DDD), estruturado em
 módulos e camadas (domain, application/useCases, infrastructure).
-Os casos de uso (UseCases) foram implementados para organizar a lógica de
-negócio de forma isolada e reutilizável.
 O sistema utilizou interfaces e implementações, aplicando o princípio de Inversão de
 Dependência para manter baixo acoplamento e facilitar a manutenção.
 A arquitetura priorizou código limpo, escalabilidade e testabilidade, demonstrando

@@ -1,34 +1,30 @@
-"use client"
+"use client";
 import { Card } from "../components/CardlList";
 import useStats from "../hooks/useStats";
 import { qntdCertificados } from "./CertificadosData";
 import { qntdSkills } from "./SkillsData";
 
+function CardData(): Card[] {
+  const { repos, commits } = useStats();
 
-
-
-function CardData():Card[] {
-    const {repos,commits} = useStats()
-
-
-  return [ 
+  return [
     {
-        number: qntdSkills,
-        text: "Habilidades"
+      number: qntdSkills,
+      text: "Habilidades",
     },
     {
-        number: repos,
-        text: "Repositorios"
+      number: repos,
+      text: "Repositórios",
     },
     {
-        number: qntdCertificados,
-        text: "Certificados"
+      number: qntdCertificados,
+      text: "Certificados",
     },
     {
-        number: commits,
-        text: "Commits"
-    }
-    ]
+      number: commits,
+      text: "Commits",
+    },
+  ];
 }
 
-export default CardData
+export default CardData;
