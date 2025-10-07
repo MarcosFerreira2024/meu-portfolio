@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function Text({ texto, title }: { texto: string; title: string }) {
   return (
-    <motion.div className="flex flex-col select-text  text-center md:text-left">
+    <motion.div className="flex flex-col   text-center md:text-left">
       <motion.h1
         initial={{ opacity: 0, x: -10 }}
         animate={{ opacity: 1, x: 0 }}
