@@ -15,13 +15,13 @@ type ProjectCardProps = {
 function ProjectCard({ data, decrease, increase }: ProjectCardProps) {
   return (
     <section className="flex flex-col justify-between gap-5 md:pr-5">
-      <div className="relative w-full">
+      <div className="relative w-full ">
         <Image
           width={1200}
           height={400}
           src={data.img}
           alt={data.title}
-          className="object-cover  md:w-full object-center border-2 border-main mainShadow  "
+          className="object-cover min-h-[271px]  md:w-full object-center border-2 border-main mainShadow  "
         />
         <div className="absolute bottom-0 left-0 right-0 w-full h-[40px] flex items-center justify-center bg-main-contrast border-2 border-main mainShadow">
           <SkillList data={data} />
