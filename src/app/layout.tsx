@@ -8,8 +8,6 @@ const Instrument = Instrument_Sans({
   subsets: ["latin"],
 });
 
-
-
 export const metadata: Metadata = {
   title: "Portfolio",
   description: "Portfolio de Marcos Ferreira",
@@ -23,9 +21,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${Instrument.variable}  font-sans antialiased bg-slate-100  ease-in transition-all duration-300 select-none `}
+        className={`${Instrument.variable}  font-sans antialiased bg-slate-100  ease-in transition-all duration-300 select-text `}
       >
-
         <Loader>{children}</Loader>
       </body>
     </html>
