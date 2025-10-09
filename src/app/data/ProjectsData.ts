@@ -1,6 +1,21 @@
 export const projetos = [
   {
     id: 1,
+    img: "/projetos/desktop.png",
+    title: "Desktop",
+    text: `O Desktop é um projeto que emula a interface do Windows 11, permitindo ao usuário explorar várias funcionalidades do sistema operacional. 
+Atualmente, o projeto inclui: Calculadora, To-Do, Notepad, visualização de currículo e configurações de temas, plano de fundo e bloqueio de tela. 
+Desenvolvido com React, TypeScript e Tailwind, o projeto prioriza interface limpa, animações suaves e navegação intuitiva, demonstrando domínio de boas práticas de frontend e componentização.`,
+    tecnologias: ["React", "TypeScript", "Tailwind"],
+    tec_icons: [
+      "/skills/react.svg",
+      "/skills/typescript.svg",
+      "/skills/tailwind.svg",
+    ],
+    live: "https://github.com/MarcosFerreira2024/Desktop",
+  },
+  {
+    id: 2,
     img: "/projetos/backend.png",
     title: "Y-Backend",
     text: `Projeto desenvolvido com foco em Domain-Driven Design (DDD), estruturado em
@@ -14,7 +29,7 @@ domínio de boas práticas avançadas de backend.`,
     live: "https://github.com/MarcosFerreira2024/Burnout",
   },
   {
-    id: 2,
+    id: 3,
     img: "/projetos/backend.png",
     title: "GameDatabase",
     text: `O GameDatabase é um projeto backend desenvolvido em Node.js e TypeScript,
@@ -25,12 +40,10 @@ domínio de boas práticas avançadas de backend.`,
     servindo como base sólida para futuras integrações com clientes web ou mobile.`,
     tecnologias: ["Node.js", "TypeScript"],
     tec_icons: ["/skills/nodejs.svg", "/skills/typescript.svg"],
-
     live: "https://github.com/MarcosFerreira2024/Burnout",
   },
-
   {
-    id: 3,
+    id: 4,
     img: "/projetos/burnout.png",
     title: "Burnout",
     text: `O Burnout é uma plataforma de eCommerce moderna 
@@ -49,7 +62,7 @@ domínio de boas práticas avançadas de backend.`,
     live: "https://github.com/MarcosFerreira2024/Burnout",
   },
   {
-    id: 4,
+    id: 5,
     img: "/projetos/unifeso.png",
     title: "Agenda NAF ",
     text: `A Agenda NAF UNIFESO é uma plataforma digital 
@@ -66,7 +79,7 @@ domínio de boas práticas avançadas de backend.`,
     live: "https://github.com/MarcosFerreira2024/Projeto-Unifeso",
   },
   {
-    id: 5,
+    id: 6,
     img: "/projetos/awax.png",
     title: "Awax",
     text: `O Awax é um projeto focado em demonstrar habilidades práticas de desenvolvimento frontend utilizando HTML e CSS3.
@@ -81,7 +94,7 @@ domínio de boas práticas avançadas de backend.`,
     live: "https://github.com/MarcosFerreira2024/Projeto-Awax",
   },
   {
-    id: 6,
+    id: 7,
     img: "/projetos/b7-burguer.png",
     title: "B7-Burguer",
     text: `O B7-Burguer é uma landing page desenvolvida para promover e 
@@ -98,7 +111,7 @@ domínio de boas práticas avançadas de backend.`,
     live: "https://github.com/MarcosFerreira2024/B7-Burguer",
   },
   {
-    id: 7,
+    id: 8,
     img: "/projetos/portfolio2.png",
     title: "Portfolio 2025",
     text: `Este portfólio foi desenvolvido utilizando Next para a estrutura do projeto e React no frontend, focando na construção de um ambiente moderno e organizado para a apresentação de projetos e habilidades.
@@ -113,7 +126,7 @@ O layout é limpo, responsivo e pensado para facilitar a navegação e visualiza
     live: "https://github.com/MarcosFerreira2024/meu-portfolio",
   },
   {
-    id: 8,
+    id: 9,
     img: "/projetos/portfolio1.png",
     title: "Portfolio Next.js",
     text: "Este portfólio foi desenvolvido utilizando Next.js, TypeScript e Tailwind, focando em performance, responsividade e experiência de usuário.",
