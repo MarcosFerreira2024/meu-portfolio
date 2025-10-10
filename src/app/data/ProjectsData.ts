@@ -5,7 +5,9 @@ export const projetos = [
     title: "Desktop",
     text: `O Desktop é um projeto que emula a interface do Windows 11, permitindo ao usuário explorar várias funcionalidades do sistema operacional. 
 Atualmente, o projeto inclui: Calculadora, To-Do, Notepad, visualização de currículo e configurações de temas, plano de fundo e bloqueio de tela. 
-Desenvolvido com React, TypeScript e Tailwind, o projeto prioriza interface limpa, animações suaves e navegação intuitiva, demonstrando domínio de boas práticas de frontend e componentização.`,
+Desenvolvido com React, TypeScript e Tailwind, o projeto prioriza interface limpa, animações suaves e navegação intuitiva, demonstrando domínio de boas práticas de frontend e componentização.
+
+EXCLUSIVO PARA DESKTOPS.`,
     tecnologias: ["React", "TypeScript", "Tailwind"],
     tec_icons: [
       "/skills/react.svg",
