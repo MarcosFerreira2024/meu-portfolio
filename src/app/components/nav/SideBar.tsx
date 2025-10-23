@@ -40,7 +40,7 @@ function SideBar() {
             height={160}
             src="/geral/profile.png"
             alt="Foto de Marcos Vinicius Ferreira Pinto"
-            className="mainShadow rounded-full  hover:rotate-3 ease-in duration-300 border-2 max-w-[75%]   border-secundary"
+            className="mainShadow rounded-full  hover:rotate-3 ease duration-300 border-2 max-w-[75%]   border-secundary"
           />
         </div>
         <div className="w-full border-[1px] border-secundary  mainShadow"></div>

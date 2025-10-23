@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${Instrument.variable}  font-sans antialiased bg-slate-100  ease-in transition-all duration-300 select-text `}
+        className={`${Instrument.variable}  font-sans antialiased bg-slate-100  ease  transition-all duration-300 select-text `}
       >
         <Loader>{children}</Loader>
       </body>
