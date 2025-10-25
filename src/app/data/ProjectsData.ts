@@ -28,7 +28,7 @@ A arquitetura priorizou código limpo, escalabilidade e testabilidade, demonstra
 domínio de boas práticas avançadas de backend.`,
     tecnologias: ["Node.js", "TypeScript"],
     tec_icons: ["skills/nodejs.svg", "/skills/typescript.svg"],
-    live: "https://github.com/MarcosFerreira2024/Burnout",
+    live: "https://github.com/MarcosFerreira2024/y-backend",
   },
   {
     id: 3,
@@ -42,7 +42,7 @@ domínio de boas práticas avançadas de backend.`,
     servindo como base sólida para futuras integrações com clientes web ou mobile.`,
     tecnologias: ["Node.js", "TypeScript"],
     tec_icons: ["/skills/nodejs.svg", "/skills/typescript.svg"],
-    live: "https://github.com/MarcosFerreira2024/Burnout",
+    live: "https://github.com/MarcosFerreira2024/gamedatabase_backend",
   },
   {
     id: 4,
